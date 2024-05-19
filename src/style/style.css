@@ -37,9 +37,16 @@ body {
     text-align: left;
     color:rgb(0, 0, 0);
     padding: 0px;
-    margin: 14px;
+    margin: 0px;
     position: absolute;
     left: 0px;
+}
+
+.headA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
 
 a {
@@ -53,7 +60,7 @@ a {
 }
 
 .noPadA {
-    padding: 15px 20px 12px 20px;
+    padding: 0px 10px 0px 10px;
     float: none;
 }
 
@@ -82,7 +89,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .tab {
