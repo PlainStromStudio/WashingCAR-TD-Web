@@ -1,0 +1,183 @@
+@media (max-width: 600px) {
+    * {
+        font-size: 2vw;
+        margin: 2px;
+    }
+}
+
+* {
+    font-family: "Madimi One", sans-serif;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    margin-top: 10%;
+}
+
+.main-header {
+    background-color: rgb(38, 140, 199);
+    padding-left: 10px;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+}
+
+.header-info {
+    text-align: left;
+    color:rgb(0, 0, 0);
+    padding: 0px;
+    margin: 14px;
+    position: absolute;
+    left: 0px;
+}
+
+a {
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-cont:hover {
+    background-color: rgb(61, 171, 235);
+}
+
+.noPadA {
+    padding: 0px;
+    float: none;
+}
+
+.main-footer{
+    background-color: rgb(61, 171, 235);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+    bottom: 0;
+}
+
+.info-center {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    background-color: rgb(201, 201, 201);
+    width: 400px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button.tab:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+h1.name {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: rgb(0,0,0);
+}
+
+h2.desc {
+    font-size: 30px;
+    color: rgb(0,0,0);
+}
+
+h3.type {
+    font-size: 20px;
+    color: rgb(0,0,0);
+}
+
+.list {
+    list-style-type: disc;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.list li {
+    margin-top: 20px;
+    color: rgb(0,0,0);
+}
+
+hr {
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(255, 85, 85);
+    border: none;
+    border-radius: 50px;
+    margin-top : 20px;
+}
+
+.drop {
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-content {
+    display: none
+}
+
+.drop:hover .drop-content {
+    display: block;
+    position: absolute;
+    top: 100%;
+}
+
+ul.contUl {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.contact {
+    text-align: left;
+    padding: 5px;
+    margin: 2px 0;
+    background-color: rgb(31, 132, 214);
+    min-width: 160px;
+    border-radius: 5px;
+}
+
+li.contact:hover {
+    background-color: rgb(96, 195, 253);
+    cursor: pointer;
+}
+
+a.contact {
+    min-width: 160px;
+    text-align: left;
+    float: none;
+}
+
+a.nav-cont {
+    float: left;
+}
